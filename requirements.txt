@@ -1,0 +1,8 @@
+numpy
+torch
+safetensors
+huggingface_hub
+transformers
+peft
+accelerate
+scikit-learn

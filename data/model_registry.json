@@ -1,0 +1,2552 @@
+[
+  {
+    "model_id": "deepseek_r1_1_5b_base",
+    "label": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "family": "deepseek_r1_1_5b",
+    "stage": "base",
+    "hf_repo_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "path": "models/deepseek_r1_1_5b/base/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Family base model."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_rlhf_deepscaler",
+    "label": "DeepScaleR-1.5B-Preview",
+    "family": "deepseek_r1_1_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "agentica-org/DeepScaleR-1.5B-Preview",
+    "path": "models/deepseek_r1_1_5b/rlhf/agentica-org/DeepScaleR-1.5B-Preview",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Reinforcement-learned long-context reasoning child."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_rlhf_zr1",
+    "label": "ZR1-1.5B",
+    "family": "deepseek_r1_1_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "Zyphra/ZR1-1.5B",
+    "path": "models/deepseek_r1_1_5b/rlhf/Zyphra/ZR1-1.5B",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Reasoning model trained with reinforcement fine-tuning."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_alphamaze",
+    "label": "AlphaMaze-v0.2-1.5B-SFT",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "jan-hq/AlphaMaze-v0.2-1.5B-SFT",
+    "path": "models/deepseek_r1_1_5b/sft/jan-hq/AlphaMaze-v0.2-1.5B-SFT",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT child."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_alphaspace",
+    "label": "AlphaSpace-1.5B",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "Menlo/AlphaSpace-1.5B",
+    "path": "models/deepseek_r1_1_5b/sft/Menlo/AlphaSpace-1.5B",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT child."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_bytesized",
+    "label": "bytesized32-world-model-sft",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "thuml/bytesized32-world-model-sft",
+    "path": "models/deepseek_r1_1_5b/sft/thuml/bytesized32-world-model-sft",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT child."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_multilingual",
+    "label": "DeepSeek-R1-Distill-Qwen-1.5B-Multilingual",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "lightblue/DeepSeek-R1-Distill-Qwen-1.5B-Multilingual",
+    "path": "models/deepseek_r1_1_5b/sft/lightblue/DeepSeek-R1-Distill-Qwen-1.5B-Multilingual",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Multilingual CoT SFT child."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_smoltalk",
+    "label": "DeepSeek-R1-Distill-Qwen-1.5B-finetuned-smoltalk-everyday-conversations",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "avanishd/DeepSeek-R1-Distill-Qwen-1.5B-finetuned-smoltalk-everyday-conversations",
+    "path": "models/deepseek_r1_1_5b/sft/avanishd/DeepSeek-R1-Distill-Qwen-1.5B-finetuned-smoltalk-everyday-conversations",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SmolTalk conversation SFT child."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_star1",
+    "label": "STAR1-R1-Distill-1.5B",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "UCSC-VLAA/STAR1-R1-Distill-1.5B",
+    "path": "models/deepseek_r1_1_5b/sft/UCSC-VLAA/STAR1-R1-Distill-1.5B",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT child."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_base",
+    "label": "Gemma-3-4B-it",
+    "family": "gemma3_4b",
+    "stage": "base",
+    "hf_repo_id": "google/gemma-3-4b-it",
+    "path": "models/gemma3_4b/base/google/gemma-3-4b-it",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Instruction base for this family."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_rlhf_slipstream",
+    "label": "gemma-3-4b-it-slipstream-grpo",
+    "family": "gemma3_4b",
+    "stage": "rlhf",
+    "hf_repo_id": "anthonym21/gemma-3-4b-it-slipstream-grpo",
+    "path": "models/gemma3_4b/rlhf/anthonym21/gemma-3-4b-it-slipstream-grpo",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT then GRPO alignment for safe Slipstream protocol use."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_sft_bggpt",
+    "label": "BgGPT-Gemma-3-4B-IT",
+    "family": "gemma3_4b",
+    "stage": "sft",
+    "hf_repo_id": "INSAIT-Institute/BgGPT-Gemma-3-4B-IT",
+    "path": "models/gemma3_4b/sft/INSAIT-Institute/BgGPT-Gemma-3-4B-IT",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Bulgarian-adapted instruction-tuned full checkpoint based on Gemma 3 4B IT."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_sft_glitter",
+    "label": "Gemma-3-Glitter-4B",
+    "family": "gemma3_4b",
+    "stage": "sft",
+    "hf_repo_id": "allura-org/Gemma-3-Glitter-4B",
+    "path": "models/gemma3_4b/sft/allura-org/Gemma-3-Glitter-4B",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Creative writing SFT."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_sft_mamaylm",
+    "label": "MamayLM-Gemma-3-4B-IT-v1.0",
+    "family": "gemma3_4b",
+    "stage": "sft",
+    "hf_repo_id": "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0",
+    "path": "models/gemma3_4b/sft/INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Ukrainian instruction SFT."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_sft_nemotron_safety",
+    "label": "Nemotron-Content-Safety-Reasoning-4B",
+    "family": "gemma3_4b",
+    "stage": "sft",
+    "hf_repo_id": "nvidia/Nemotron-Content-Safety-Reasoning-4B",
+    "path": "models/gemma3_4b/sft/nvidia/Nemotron-Content-Safety-Reasoning-4B",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Content-safety reasoning fine-tune."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_sft_sarvam_translate",
+    "label": "sarvam-translate",
+    "family": "gemma3_4b",
+    "stage": "sft",
+    "hf_repo_id": "sarvamai/sarvam-translate",
+    "path": "models/gemma3_4b/sft/sarvamai/sarvam-translate",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Indian-language translation SFT."
+    ]
+  },
+  {
+    "model_id": "gemma3_4b_sft_text_to_cypher",
+    "label": "text-to-cypher-Gemma-3-4B-Instruct-2025.04.0",
+    "family": "gemma3_4b",
+    "stage": "sft",
+    "hf_repo_id": "neo4j/text-to-cypher-Gemma-3-4B-Instruct-2025.04.0",
+    "path": "models/gemma3_4b/sft/neo4j/text-to-cypher-Gemma-3-4B-Instruct-2025.04.0",
+    "claimed_parent_model_id": "gemma3_4b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Text-to-Cypher SFT."
+    ]
+  },
+  {
+    "model_id": "gpt2_base",
+    "label": "GPT-2",
+    "family": "gpt2",
+    "stage": "base",
+    "hf_repo_id": "openai-community/gpt2",
+    "path": "models/gpt2/base/openai-community/gpt2",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_base",
+    "label": "GPT-2 Medium",
+    "family": "gpt2_medium",
+    "stage": "base",
+    "hf_repo_id": "openai-community/gpt2-medium",
+    "path": "models/gpt2_medium/base/openai-community/gpt2-medium",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_rlhf_gpt2_medium_dpo",
+    "label": "gpt2-medium-dpo",
+    "family": "gpt2_medium",
+    "stage": "rlhf",
+    "hf_repo_id": "gumran/gpt2-medium-dpo",
+    "path": "models/gpt2_medium/rlhf/gumran/gpt2-medium-dpo",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "RLHF-ish child (DPO/PPO/IPO/ORPO/GRPO)."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_rlhf_gpt2_ppo_prefix_tuning",
+    "label": "gpt2-ppo-prefix-tuning",
+    "family": "gpt2_medium",
+    "stage": "rlhf",
+    "hf_repo_id": "itsmepv/gpt2-ppo-prefix-tuning",
+    "path": "models/gpt2_medium/sft_merged/itsmepv/gpt2-ppo-prefix-tuning",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "RLHF-ish child (DPO/PPO/IPO/ORPO/GRPO).",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_aira_2_355m",
+    "label": "Aira-2-355M",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "nicholasKluge/Aira-2-355M",
+    "path": "models/gpt2_medium/sft/nicholasKluge/Aira-2-355M",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_gmra_model_gpt2_medium_14082023t134929",
+    "label": "gmra_model_gpt2-medium_14082023T134929",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "samaksh-khatri-crest-data/gmra_model_gpt2-medium_14082023T134929",
+    "path": "models/gpt2_medium/sft/samaksh-khatri-crest-data/gmra_model_gpt2-medium_14082023T134929",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_gpt2_medium_custom",
+    "label": "gpt2-medium-custom",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "shubhamgantayat/gpt2-medium-custom",
+    "path": "models/gpt2_medium/sft/shubhamgantayat/gpt2-medium-custom",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_gpt2_medium_finetuned_contract_gen",
+    "label": "gpt2-medium-finetuned-contract-gen",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "ckandemir/gpt2-medium-finetuned-contract-gen",
+    "path": "models/gpt2_medium/sft/ckandemir/gpt2-medium-finetuned-contract-gen",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_gpt2_product_review_generation",
+    "label": "gpt2-product-review-generation",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "umaru97/gpt2-product-review-generation",
+    "path": "models/gpt2_medium/sft/umaru97/gpt2-product-review-generation",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_results",
+    "label": "results",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "jkhan447/results",
+    "path": "models/gpt2_medium/sft/jkhan447/results",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_aira_2_124m",
+    "label": "Aira-2-124M",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "nicholasKluge/Aira-2-124M",
+    "path": "models/gpt2/sft/nicholasKluge/Aira-2-124M",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_gpt2_finetuned_yannic_test",
+    "label": "gpt2-finetuned-yannic-test",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "juancopi81/gpt2-finetuned-yannic-test",
+    "path": "models/gpt2/sft/juancopi81/gpt2-finetuned-yannic-test",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_gpt2_guanaco_lora",
+    "label": "GPT2-Guanaco-LoRA",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "harigovind511/GPT2-Guanaco-LoRA",
+    "path": "models/gpt2/sft_merged/harigovind511/GPT2-Guanaco-LoRA",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Adapter / PEFT child.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_gpt2_multi_news",
+    "label": "gpt2-multi-news",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "Ssarion/gpt2-multi-news",
+    "path": "models/gpt2/sft/Ssarion/gpt2-multi-news",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_gpt_ya2_v2",
+    "label": "gpt-ya2-v2",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "kpriyanshu256/gpt-ya2-v2",
+    "path": "models/gpt2/sft/kpriyanshu256/gpt-ya2-v2",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_malayalam_gpt2",
+    "label": "malayalam-gpt2",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "bipin/malayalam-gpt2",
+    "path": "models/gpt2/sft/bipin/malayalam-gpt2",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_medical_transcription_generator",
+    "label": "medical_transcription_generator",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "alibidaran/medical_transcription_generator",
+    "path": "models/gpt2/sft/alibidaran/medical_transcription_generator",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_tinystoriestest",
+    "label": "TinyStoriesTest",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "jackoyoungblood/TinyStoriesTest",
+    "path": "models/gpt2/sft/jackoyoungblood/TinyStoriesTest",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_base",
+    "label": "GPT-2 XL",
+    "family": "gpt2_xl",
+    "stage": "base",
+    "hf_repo_id": "openai-community/gpt2-xl",
+    "path": "models/gpt2_xl/base/openai-community/gpt2-xl",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_2025_04_02_14_52_39",
+    "label": "2025-04-02_14-52-39",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "masani/2025-04-02_14-52-39",
+    "path": "models/gpt2_xl/sft/masani/2025-04-02_14-52-39",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_gpt2_xl_alpaca_instruction_fine_tuning_lora",
+    "label": "gpt2-xl-alpaca-instruction-fine-tuning-lora",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "santis2/gpt2-xl-alpaca-instruction-fine-tuning-lora",
+    "path": "models/gpt2_xl/sft_merged/santis2/gpt2-xl-alpaca-instruction-fine-tuning-lora",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Adapter / PEFT child.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_gpt2_xl_sentiment",
+    "label": "gpt2-xl_sentiment",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "aieng-lab/gpt2-xl_sentiment",
+    "path": "models/gpt2_xl/sft/aieng-lab/gpt2-xl_sentiment",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_gpt2o_chatbot_02",
+    "label": "gpt2o-chatbot-02",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "styalai/gpt2o-chatbot-02",
+    "path": "models/gpt2_xl/sft/styalai/gpt2o-chatbot-02",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_sft_checkpoints",
+    "label": "sft_checkpoints",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "masani/sft_checkpoints",
+    "path": "models/gpt2_xl/sft/masani/sft_checkpoints",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_teacher_gpt2_1_5b",
+    "label": "teacher-gpt2-1.5B",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "MiniLLM/teacher-gpt2-1.5B",
+    "path": "models/gpt2_xl/sft/MiniLLM/teacher-gpt2-1.5B",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_base",
+    "label": "Llama-3.2-1B-Instruct",
+    "family": "llama3_2_1b_instruct",
+    "stage": "base",
+    "hf_repo_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "path": "models/llama3_2_1b_instruct/base/meta-llama/Llama-3.2-1B-Instruct",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_rlhf_aegis_sft_dpo",
+    "label": "Llama-3.2-1B-Aegis-SFT-DPO",
+    "family": "llama3_2_1b_instruct",
+    "stage": "rlhf",
+    "hf_repo_id": "ahczhg/Llama-3.2-1B-Aegis-SFT-DPO",
+    "path": "models/llama3_2_1b_instruct/rlhf/ahczhg/Llama-3.2-1B-Aegis-SFT-DPO",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit SFT+DPO model in Llama-3.2-1B-Instruct family"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_rlhf_grpo_45k_ragv2",
+    "label": "Llama-3.2-1B-Instruct-GRPO-45k_RAGv2",
+    "family": "llama3_2_1b_instruct",
+    "stage": "rlhf",
+    "hf_repo_id": "BleachNick/Llama-3.2-1B-Instruct-GRPO-45k_RAGv2",
+    "path": "models/llama3_2_1b_instruct/rlhf/BleachNick/Llama-3.2-1B-Instruct-GRPO-45k_RAGv2",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit GRPO model in Llama-3.2-1B-Instruct family"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_rlhf_llama_1b_sft_dpo_final",
+    "label": "llama-1b-sft-dpo-final",
+    "family": "llama3_2_1b_instruct",
+    "stage": "rlhf",
+    "hf_repo_id": "pranav6905/llama-1b-sft-dpo-final",
+    "path": "models/llama3_2_1b_instruct/rlhf/pranav6905/llama-1b-sft-dpo-final",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit SFT->DPO pipeline model in Llama-3.2-1B-Instruct family"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_rlhf_rlhf_v0_1",
+    "label": "Llama-3.2-1B-Instruct-RLHF-v0.1",
+    "family": "llama3_2_1b_instruct",
+    "stage": "rlhf",
+    "hf_repo_id": "ericflo/Llama-3.2-1B-Instruct-RLHF-v0.1",
+    "path": "models/llama3_2_1b_instruct/rlhf/ericflo/Llama-3.2-1B-Instruct-RLHF-v0.1",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit RLHF-labeled model in Llama-3.2-1B-Instruct family"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_brickgpt",
+    "label": "BrickGPT",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "AvaLovelace/BrickGPT",
+    "path": "models/llama3_2_1b_instruct/sft_merged/AvaLovelace/BrickGPT",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA fine-tune from meta-llama/Llama-3.2-1B-Instruct",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_lora_tool_vllm_ci",
+    "label": "LoRA-Llama-3.2-1B-tool-vllm-ci",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "minpeter/LoRA-Llama-3.2-1B-tool-vllm-ci",
+    "path": "models/llama3_2_1b_instruct/sft_merged/minpeter/LoRA-Llama-3.2-1B-tool-vllm-ci",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA fine-tune on meta-llama/Llama-3.2-1B-Instruct",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_math",
+    "label": "llama3.2-1B-MATH",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "erbacher/llama3.2-1B-MATH",
+    "path": "models/llama3_2_1b_instruct/sft/erbacher/llama3.2-1B-MATH",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "TRL-trained MATH fine-tune from meta-llama/Llama-3.2-1B-Instruct"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_medical_guide_cot",
+    "label": "Medical-Guide-COT-llama3.2-1B",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "alpha-ai/Medical-Guide-COT-llama3.2-1B",
+    "path": "models/llama3_2_1b_instruct/sft/alpha-ai/Medical-Guide-COT-llama3.2-1B",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "base_model points to meta-llama/Llama-3.2-1B-Instruct"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_mlqrecc_rewriter",
+    "label": "llama-3.2-1B-MLQRECC-Rewriter",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "Aygun/llama-3.2-1B-MLQRECC-Rewriter",
+    "path": "models/llama3_2_1b_instruct/sft_merged/Aygun/llama-3.2-1B-MLQRECC-Rewriter",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA fine-tune on meta-llama/Llama-3.2-1B-Instruct",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_open",
+    "label": "open-llama-3.2-1B-Instruct",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "diabolic6045/open-llama-3.2-1B-Instruct",
+    "path": "models/llama3_2_1b_instruct/sft/diabolic6045/open-llama-3.2-1B-Instruct",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "fine-tuned model from meta-llama/Llama-3.2-1B-Instruct"
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_persianqav2_0",
+    "label": "llama3.2-1B-persianQAV2.0",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "azizmatin/llama3.2-1B-persianQAV2.0",
+    "path": "models/llama3_2_1b_instruct/sft_merged/azizmatin/llama3.2-1B-persianQAV2.0",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "fine-tuned QA model from meta-llama/Llama-3.2-1B-Instruct",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_reasoning_gen_1b",
+    "label": "reasoning-gen-1b",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "syvai/reasoning-gen-1b",
+    "path": "models/llama3_2_1b_instruct/sft/syvai/reasoning-gen-1b",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "fine-tuned model from meta-llama/Llama-3.2-1B-Instruct"
+    ]
+  },
+  {
+    "model_id": "llama3_8b_base",
+    "label": "Meta-Llama-3-8B",
+    "family": "llama3_8b",
+    "stage": "base",
+    "hf_repo_id": "meta-llama/Meta-Llama-3-8B",
+    "path": "models/llama3_8b/base/meta-llama/Meta-Llama-3-8B",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_rlhf_orpo_dfurman",
+    "label": "Llama-3-8B-Orpo-v0.1",
+    "family": "llama3_8b",
+    "stage": "rlhf",
+    "hf_repo_id": "dfurman/Llama-3-8B-Orpo-v0.1",
+    "path": "models/llama3_8b/rlhf/dfurman/Llama-3-8B-Orpo-v0.1",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "ORPO preference-optimized child."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_rlhf_orpo_mlabonne",
+    "label": "OrpoLlama-3-8B",
+    "family": "llama3_8b",
+    "stage": "rlhf",
+    "hf_repo_id": "mlabonne/OrpoLlama-3-8B",
+    "path": "models/llama3_8b/rlhf/mlabonne/OrpoLlama-3-8B",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "ORPO fine-tune of Meta-Llama-3-8B on a preference mixture."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_einstein",
+    "label": "Einstein-v6.1-Llama3-8B",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "Weyaxi/Einstein-v6.1-Llama3-8B",
+    "path": "models/llama3_8b/sft/Weyaxi/Einstein-v6.1-Llama3-8B",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Full fine-tune on broad instruction/science data."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_ita",
+    "label": "Llama-3-8b-Ita",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "DeepMount00/Llama-3-8b-Ita",
+    "path": "models/llama3_8b/sft/DeepMount00/Llama-3-8b-Ita",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Italian-language SFT."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_magpie",
+    "label": "Llama-3-8B-Magpie-Align-SFT-v0.3",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "Magpie-Align/Llama-3-8B-Magpie-Align-SFT-v0.3",
+    "path": "models/llama3_8b/sft/Magpie-Align/Llama-3-8B-Magpie-Align-SFT-v0.3",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Instruction-tuned SFT child."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_openchat",
+    "label": "openchat-3.6-8b",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "openchat/openchat-3.6-8b-20240522",
+    "path": "models/llama3_8b/sft/openchat/openchat-3.6-8b-20240522",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "General chat SFT child."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_openrlhf",
+    "label": "Llama-3-8b-sft-mixture",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "OpenRLHF/Llama-3-8b-sft-mixture",
+    "path": "models/llama3_8b/sft/OpenRLHF/Llama-3-8b-sft-mixture",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Mixture-of-open-data SFT child."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_yiping",
+    "label": "Meta-Llama-3-8B",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "YipingZhang/Meta-Llama-3-8B",
+    "path": "models/llama3_8b/sft_merged/YipingZhang/Meta-Llama-3-8B",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Generic TRL SFT fine-tune of Meta-Llama-3-8B.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_base",
+    "label": "Mistral-7B-v0.3",
+    "family": "mistral_7b",
+    "stage": "base",
+    "hf_repo_id": "mistralai/Mistral-7B-v0.3",
+    "path": "models/mistral_7b/base/mistralai/Mistral-7B-v0.3",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_rlhf_chinese_chat",
+    "label": "Mistral-7B-v0.3-Chinese-Chat",
+    "family": "mistral_7b",
+    "stage": "rlhf",
+    "hf_repo_id": "shenzhi-wang/Mistral-7B-v0.3-Chinese-Chat",
+    "path": "models/mistral_7b/rlhf/shenzhi-wang/Mistral-7B-v0.3-Chinese-Chat",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Full-parameter ORPO fine-tune built on Mistral-7B-Instruct-v0.3."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_rlhf_grpo",
+    "label": "mistral7b-grpo",
+    "family": "mistral_7b",
+    "stage": "rlhf",
+    "hf_repo_id": "Ppear/mistral7b-grpo",
+    "path": "models/mistral_7b/sft_merged/Ppear/mistral7b-grpo",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "GRPO fine-tune built on Mistral-7B-Instruct-v0.3.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_clinical_br",
+    "label": "Clinical-BR-Mistral-7B-v0.2",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "pucpr-br/Clinical-BR-Mistral-7B-v0.2",
+    "path": "models/mistral_7b/sft/pucpr-br/Clinical-BR-Mistral-7B-v0.2",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Brazilian-Portuguese clinical SFT child."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_cymist",
+    "label": "cymist-2-v03-SFT",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "cypienai/cymist-2-v03-SFT",
+    "path": "models/mistral_7b/sft/cypienai/cymist-2-v03-SFT",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "General SFT child."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_dolphin",
+    "label": "dolphin-2.9.3-mistral-7B-32k",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "dphn/dolphin-2.9.3-mistral-7B-32k",
+    "path": "models/mistral_7b/sft/dphn/dolphin-2.9.3-mistral-7B-32k",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "General chat SFT child."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_ro",
+    "label": "RoMistral-7b-Instruct",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "OpenLLM-Ro/RoMistral-7b-Instruct",
+    "path": "models/mistral_7b/sft/OpenLLM-Ro/RoMistral-7b-Instruct",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Romanian instruction-tuned SFT child."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_spellcheck",
+    "label": "spellcheck-mistral-7b",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "openfoodfacts/spellcheck-mistral-7b",
+    "path": "models/mistral_7b/sft/openfoodfacts/spellcheck-mistral-7b",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Food ingredient spellcheck SFT child."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_tess",
+    "label": "Tess-3-7B-SFT",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "migtissera/Tess-3-7B-SFT",
+    "path": "models/mistral_7b/sft/migtissera/Tess-3-7B-SFT",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "General-purpose SFT child."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_base",
+    "label": "Pythia-410M",
+    "family": "pythia_410m",
+    "stage": "base",
+    "hf_repo_id": "EleutherAI/pythia-410m",
+    "path": "models/pythia_410m/base/EleutherAI/pythia-410m",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model (410M)."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_rlhf_helpful_dpo",
+    "label": "pythia-410m-helpful-dpo",
+    "family": "pythia_410m",
+    "stage": "rlhf",
+    "hf_repo_id": "lomahony/pythia-410m-helpful-dpo",
+    "path": "models/pythia_410m/rlhf/lomahony/pythia-410m-helpful-dpo",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Helpful-Harmless preference optimization model; model card ties it to EleutherAI/pythia-410m."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_rlhf_hh_dpo",
+    "label": "eleuther-pythia410m-hh-dpo",
+    "family": "pythia_410m",
+    "stage": "rlhf",
+    "hf_repo_id": "lomahony/eleuther-pythia410m-hh-dpo",
+    "path": "models/pythia_410m/rlhf/lomahony/eleuther-pythia410m-hh-dpo",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "DPO fine-tune on the full Anthropic HH-RLHF dataset."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_sft_c2s_celltype",
+    "label": "C2S-Pythia-410m-cell-type-prediction",
+    "family": "pythia_410m",
+    "stage": "sft",
+    "hf_repo_id": "vandijklab/C2S-Pythia-410m-cell-type-prediction",
+    "path": "models/pythia_410m/sft/vandijklab/C2S-Pythia-410m-cell-type-prediction",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Single-cell biology cell-type prediction SFT."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_sft_full",
+    "label": "pythia-410m-sft-full",
+    "family": "pythia_410m",
+    "stage": "sft",
+    "hf_repo_id": "nnheui/pythia-410m-sft-full",
+    "path": "models/pythia_410m/sft/nnheui/pythia-410m-sft-full",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "General SFT child."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_sft_health",
+    "label": "Malawi-Public-Health-Systems",
+    "family": "pythia_410m",
+    "stage": "sft",
+    "hf_repo_id": "Joshua-Abok/Malawi-Public-Health-Systems",
+    "path": "models/pythia_410m/sft/Joshua-Abok/Malawi-Public-Health-Systems",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Public health domain SFT child."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_sft_tulu",
+    "label": "pythia-410m-tulu-v2-mix",
+    "family": "pythia_410m",
+    "stage": "sft",
+    "hf_repo_id": "kykim0/pythia-410m-tulu-v2-mix",
+    "path": "models/pythia_410m/sft/kykim0/pythia-410m-tulu-v2-mix",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Tulu-v2 instruction mix SFT child."
+    ]
+  },
+  {
+    "model_id": "pythia_410m_sft_xsum",
+    "label": "pythia-410m-xsum-oneepoch",
+    "family": "pythia_410m",
+    "stage": "sft",
+    "hf_repo_id": "mia-llm/pythia-410m-xsum-oneepoch",
+    "path": "models/pythia_410m/sft/mia-llm/pythia-410m-xsum-oneepoch",
+    "claimed_parent_model_id": "pythia_410m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "XSum summarization SFT child."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_base",
+    "label": "Qwen2.5-0.5B",
+    "family": "qwen2_5_0_5b",
+    "stage": "base",
+    "hf_repo_id": "Qwen/Qwen2.5-0.5B",
+    "path": "models/qwen2_5_0_5b/base/Qwen/Qwen2.5-0.5B",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_rlhf_dpo",
+    "label": "Qwen2.5-0.5B-DPO",
+    "family": "qwen2_5_0_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "shawhin/Qwen2.5-0.5B-DPO",
+    "path": "models/qwen2_5_0_5b/rlhf/shawhin/Qwen2.5-0.5B-DPO",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit DPO model from Qwen/Qwen2.5-0.5B"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_rlhf_dpo_2",
+    "label": "Qwen2.5-0.5B-DPO",
+    "family": "qwen2_5_0_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "Saralatifi/Qwen2.5-0.5B-DPO",
+    "path": "models/qwen2_5_0_5b/rlhf/Saralatifi/Qwen2.5-0.5B-DPO",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit DPO model from Qwen/Qwen2.5-0.5B"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_rlhf_dpo_english_orca",
+    "label": "Qwen2.5-0.5B-DPO-English-Orca",
+    "family": "qwen2_5_0_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "BounharAbdelaziz/Qwen2.5-0.5B-DPO-English-Orca",
+    "path": "models/qwen2_5_0_5b/rlhf/BounharAbdelaziz/Qwen2.5-0.5B-DPO-English-Orca",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit DPO/LoRA model in Qwen2.5-0.5B family"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_rlhf_grpo_math_reasoning",
+    "label": "Qwen2.5-0.5B-GRPO-math-reasoning",
+    "family": "qwen2_5_0_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "jaygala24/Qwen2.5-0.5B-GRPO-math-reasoning",
+    "path": "models/qwen2_5_0_5b/rlhf/jaygala24/Qwen2.5-0.5B-GRPO-math-reasoning",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit GRPO model from Qwen/Qwen2.5-0.5B"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_rlhf_oaif",
+    "label": "qwen2.5-0.5b-oaif",
+    "family": "qwen2_5_0_5b",
+    "stage": "rlhf",
+    "hf_repo_id": "XueyingJia/qwen2.5-0.5b-oaif",
+    "path": "models/qwen2_5_0_5b/sft_merged/XueyingJia/qwen2.5-0.5b-oaif",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "online DPO / preference-optimization style model in Qwen2.5-0.5B family",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_instruct_rl_databricks_dolly_15k",
+    "label": "instruct-rl-Qwen2.5-0.5B-databricks-dolly-15k",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "robertvacareanu/instruct-rl-Qwen2.5-0.5B-databricks-dolly-15k",
+    "path": "models/qwen2_5_0_5b/sft/robertvacareanu/instruct-rl-Qwen2.5-0.5B-databricks-dolly-15k",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "base_model metadata indicates Qwen/Qwen2.5-0.5B; treated here as SFT-stage model"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_qwen_demo_verbose",
+    "label": "qwen-demo-verbose",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "evalstate/qwen-demo-verbose",
+    "path": "models/qwen2_5_0_5b/sft_merged/evalstate/qwen-demo-verbose",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "listed as fine-tuned model on Qwen/Qwen2.5-0.5B",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_sft",
+    "label": "Qwen2.5-0.5B-SFT",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "JayHyeon/Qwen2.5-0.5B-SFT",
+    "path": "models/qwen2_5_0_5b/sft/JayHyeon/Qwen2.5-0.5B-SFT",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit SFT on Qwen/Qwen2.5-0.5B"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_sft_2",
+    "label": "Qwen2.5-0.5B-SFT",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "qgallouedec/Qwen2.5-0.5B-SFT",
+    "path": "models/qwen2_5_0_5b/sft/qgallouedec/Qwen2.5-0.5B-SFT",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit SFT on Qwen/Qwen2.5-0.5B"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_sft_lora",
+    "label": "Qwen2.5-0.5B-SFT-LoRA",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "lewtun/Qwen2.5-0.5B-SFT-LoRA",
+    "path": "models/qwen2_5_0_5b/sft_merged/lewtun/Qwen2.5-0.5B-SFT-LoRA",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA SFT on Qwen/Qwen2.5-0.5B",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_synthia_i",
+    "label": "QWEN-2.5-0.5B-Synthia-I",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "artificialguybr/QWEN-2.5-0.5B-Synthia-I",
+    "path": "models/qwen2_5_0_5b/sft/artificialguybr/QWEN-2.5-0.5B-Synthia-I",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "model card described as fine-tuned from Qwen/Qwen2.5-0.5B"
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_trl_demo_qwen",
+    "label": "trl-demo-qwen",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "evalstate/trl-demo-qwen",
+    "path": "models/qwen2_5_0_5b/sft_merged/evalstate/trl-demo-qwen",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "listed as SFT-trained demo model on Qwen/Qwen2.5-0.5B",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_base",
+    "label": "Qwen3-0.6B-Base",
+    "family": "qwen3_0_6b",
+    "stage": "base",
+    "hf_repo_id": "Qwen/Qwen3-0.6B-Base",
+    "path": "models/qwen3_0_6b/base/Qwen/Qwen3-0.6B-Base",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_rlhf_qwen3_0_6b_ipo",
+    "label": "Qwen3-0.6B-IPO",
+    "family": "qwen3_0_6b",
+    "stage": "rlhf",
+    "hf_repo_id": "AIPlans/Qwen3-0.6B-IPO",
+    "path": "models/qwen3_0_6b/rlhf/AIPlans/Qwen3-0.6B-IPO",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "RLHF-ish child (DPO/PPO/IPO/ORPO/GRPO)."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_dreamwriter_0_6b_beta",
+    "label": "dreamwriter-0.6b-beta",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "mrfakename/dreamwriter-0.6b-beta",
+    "path": "models/qwen3_0_6b/sft/mrfakename/dreamwriter-0.6b-beta",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_mnlp_m2_mcqa_model_full_ft",
+    "label": "MNLP_M2_mcqa_model_full_ft",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "EhDa24/MNLP_M2_mcqa_model_full_ft",
+    "path": "models/qwen3_0_6b/sft/EhDa24/MNLP_M2_mcqa_model_full_ft",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_mnlp_m2_rag_model",
+    "label": "MNLP_M2_rag_model",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "cam-1000/MNLP_M2_rag_model",
+    "path": "models/qwen3_0_6b/sft/cam-1000/MNLP_M2_rag_model",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_qwen3_nothink_0_6b",
+    "label": "Qwen3-NoThink-0.6b",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "intalio/Qwen3-NoThink-0.6b",
+    "path": "models/qwen3_0_6b/sft/intalio/Qwen3-NoThink-0.6b",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_rag_old",
+    "label": "rag_old",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "matyaydin/rag_old",
+    "path": "models/qwen3_0_6b/sft/matyaydin/rag_old",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_s1_20250515_101249",
+    "label": "s1-20250515_101249",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "charlottemeyer/s1-20250515_101249",
+    "path": "models/qwen3_0_6b/sft/charlottemeyer/s1-20250515_101249",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_base",
+    "label": "Qwen3-8B",
+    "family": "qwen3_8b",
+    "stage": "base",
+    "hf_repo_id": "Qwen/Qwen3-8B",
+    "path": "models/qwen3_8b/base/Qwen/Qwen3-8B",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_rlhf_open_thoughts",
+    "label": "OpenThinker-Agent-v1",
+    "family": "qwen3_8b",
+    "stage": "rlhf",
+    "hf_repo_id": "open-thoughts/OpenThinker-Agent-v1",
+    "path": "models/qwen3_8b/rlhf/open-thoughts/OpenThinker-Agent-v1",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Final OpenThinker-Agent model after SFT followed by RL."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_sft_dr_tulu",
+    "label": "DR-Tulu-SFT-8B",
+    "family": "qwen3_8b",
+    "stage": "sft",
+    "hf_repo_id": "rl-research/DR-Tulu-SFT-8B",
+    "path": "models/qwen3_8b/sft/rl-research/DR-Tulu-SFT-8B",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Tool-use-heavy SFT child."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_sft_goedel",
+    "label": "Goedel-Prover-V2-8B",
+    "family": "qwen3_8b",
+    "stage": "sft",
+    "hf_repo_id": "Goedel-LM/Goedel-Prover-V2-8B",
+    "path": "models/qwen3_8b/sft/Goedel-LM/Goedel-Prover-V2-8B",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Math prover SFT child."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_sft_open_thoughts",
+    "label": "OpenThinker-Agent-v1-SFT",
+    "family": "qwen3_8b",
+    "stage": "sft",
+    "hf_repo_id": "open-thoughts/OpenThinker-Agent-v1-SFT",
+    "path": "models/qwen3_8b/sft/open-thoughts/OpenThinker-Agent-v1-SFT",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Agent SFT stage from the OpenThinker-Agent pipeline."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_sft_orchestrator",
+    "label": "Nemotron-Orchestrator-8B",
+    "family": "qwen3_8b",
+    "stage": "sft",
+    "hf_repo_id": "nvidia/Nemotron-Orchestrator-8B",
+    "path": "models/qwen3_8b/sft/nvidia/Nemotron-Orchestrator-8B",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Tool orchestration SFT-stage child."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_sft_shisa",
+    "label": "shisa-v2.1-qwen3-8b",
+    "family": "qwen3_8b",
+    "stage": "sft",
+    "hf_repo_id": "shisa-ai/shisa-v2.1-qwen3-8b",
+    "path": "models/qwen3_8b/sft/shisa-ai/shisa-v2.1-qwen3-8b",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Japanese bilingual SFT child."
+    ]
+  },
+  {
+    "model_id": "qwen3_8b_sft_xinli",
+    "label": "Qwen3-8B-SFT",
+    "family": "qwen3_8b",
+    "stage": "sft",
+    "hf_repo_id": "xinli95/Qwen3-8B-SFT",
+    "path": "models/qwen3_8b/sft_merged/xinli95/Qwen3-8B-SFT",
+    "claimed_parent_model_id": "qwen3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Generic TRL SFT child; model card states it is a fine-tuned version of Qwen/Qwen3-8B.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_base",
+    "label": "SmolLM2-135M",
+    "family": "smollm2_135m",
+    "stage": "base",
+    "hf_repo_id": "HuggingFaceTB/SmolLM2-135M",
+    "path": "models/smollm2_135m/base/HuggingFaceTB/SmolLM2-135M",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_rlhf_ft_orpo",
+    "label": "SmolLM2-FT-ORPO",
+    "family": "smollm2_135m",
+    "stage": "rlhf",
+    "hf_repo_id": "MUTSC/SmolLM2-FT-ORPO",
+    "path": "models/smollm2_135m/rlhf/MUTSC/SmolLM2-FT-ORPO",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit ORPO model in SmolLM2-135M family"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_rlhf_orpo",
+    "label": "SmolLM2-135M-ORPO",
+    "family": "smollm2_135m",
+    "stage": "rlhf",
+    "hf_repo_id": "hsila/SmolLM2-135M-ORPO",
+    "path": "models/smollm2_135m/rlhf/hsila/SmolLM2-135M-ORPO",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit ORPO model from SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_rlhf_smolcourse_chapter2_orpo",
+    "label": "smolcourse_chapter2_ORPO",
+    "family": "smollm2_135m",
+    "stage": "rlhf",
+    "hf_repo_id": "peaceAsh/smolcourse_chapter2_ORPO",
+    "path": "models/smollm2_135m/rlhf/peaceAsh/smolcourse_chapter2_ORPO",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit ORPO model in SmolLM2-135M family"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_code_text_to_sql",
+    "label": "code-smolLM2-135m-text-to-sql",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "Ellight/code-smolLM2-135m-text-to-sql",
+    "path": "models/smollm2_135m/sft/Ellight/code-smolLM2-135m-text-to-sql",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "fine-tuned text-to-sql model from SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_ft_mydataset",
+    "label": "SmolLM2-FT-MyDataset",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "gotoplanb/SmolLM2-FT-MyDataset",
+    "path": "models/smollm2_135m/sft/gotoplanb/SmolLM2-FT-MyDataset",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit SFT/fine-tune on SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_ft_sql_context",
+    "label": "SmolLM2-FT-SQL-Context",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "Nels2/SmolLM2-FT-SQL-Context",
+    "path": "models/smollm2_135m/sft/Nels2/SmolLM2-FT-SQL-Context",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "name indicates SQL-context fine-tune in SmolLM2-135M family"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_instruct_smol_course",
+    "label": "SmolLM2-135M-Instruct-Smol-Course",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "puettmann/SmolLM2-135M-Instruct-Smol-Course",
+    "path": "models/smollm2_135m/sft/puettmann/SmolLM2-135M-Instruct-Smol-Course",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "fine-tuned instruct/course model from SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_sft_only",
+    "label": "smollm2-135M-SFT-Only",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "HuggingFaceTB/smollm2-135M-SFT-Only",
+    "path": "models/smollm2_135m/sft/HuggingFaceTB/smollm2-135M-SFT-Only",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "official SFT-only model from SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_sft_smoltalk",
+    "label": "SmolLM2-135M-SFT-smoltalk",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "ParitKansal/SmolLM2-135M-SFT-smoltalk",
+    "path": "models/smollm2_135m/sft/ParitKansal/SmolLM2-135M-SFT-smoltalk",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "explicit SFT on SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_smolmath_135m",
+    "label": "SmolMath-135M",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "Ashed00/SmolMath-135M",
+    "path": "models/smollm2_135m/sft/Ashed00/SmolMath-135M",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "full fine-tune from SmolLM2-135M"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_text_to_sql",
+    "label": "SmolLM2-135M-text-to-sql",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "Ellight/SmolLM2-135M-text-to-sql",
+    "path": "models/smollm2_135m/sft/Ellight/SmolLM2-135M-text-to-sql",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "text-to-sql fine-tune listed in SmolLM2-135M family"
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_tldr_sft",
+    "label": "SmolLM2-135M-tldr-sft",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "mnoukhov/SmolLM2-135M-tldr-sft",
+    "path": "models/smollm2_135m/sft/mnoukhov/SmolLM2-135M-tldr-sft",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "name indicates TLDR SFT in SmolLM2-135M family"
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_base",
+    "label": "SmolLM2-1.7B-Instruct",
+    "family": "smollm2_1_7b",
+    "stage": "base",
+    "hf_repo_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "path": "models/smollm2_1_7b/base/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Instruction base for this family."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_rlhf_ds",
+    "label": "DS-RLHF-1.7B",
+    "family": "smollm2_1_7b",
+    "stage": "rlhf",
+    "hf_repo_id": "DSTI/DS-RLHF-1.7B",
+    "path": "models/smollm2_1_7b/sft_merged/DSTI/DS-RLHF-1.7B",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "ORPO / RLHF alignment adapter built on SmolLM2-1.7B-Instruct.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_rlhf_penny",
+    "label": "Penny-1.7B",
+    "family": "smollm2_1_7b",
+    "stage": "rlhf",
+    "hf_repo_id": "dleemiller/Penny-1.7B",
+    "path": "models/smollm2_1_7b/rlhf/dleemiller/Penny-1.7B",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "GRPO style-transfer model on SmolLM2-1.7B-Instruct."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_agentic",
+    "label": "OpenR1-SmolLM2-1.7B-Instruct-Agentic",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "m-ric/OpenR1-SmolLM2-1.7B-Instruct-Agentic",
+    "path": "models/smollm2_1_7b/sft/m-ric/OpenR1-SmolLM2-1.7B-Instruct-Agentic",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Agentic SFT fine-tune on training traces."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_coder",
+    "label": "SmolLCoder-1.7B-Instruct",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "motexture/SmolLCoder-1.7B-Instruct",
+    "path": "models/smollm2_1_7b/sft/motexture/SmolLCoder-1.7B-Instruct",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Coding SFT child."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_humanized",
+    "label": "SmolLM2-1.7B-humanized",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "AssistantsLab/SmolLM2-1.7B-humanized",
+    "path": "models/smollm2_1_7b/sft/AssistantsLab/SmolLM2-1.7B-humanized",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Humanized dialogue SFT child."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_mgsm_math",
+    "label": "SmolLM2-1.7B-mgsm-math",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "47z/SmolLM2-1.7B-mgsm-math",
+    "path": "models/smollm2_1_7b/sft/47z/SmolLM2-1.7B-mgsm-math",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "MGSM math SFT child."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_translate",
+    "label": "SmolMaestra-1.7b-Translation",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "puettmann/SmolMaestra-1.7b-Translation",
+    "path": "models/smollm2_1_7b/sft/puettmann/SmolMaestra-1.7b-Translation",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Translation SFT child."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_uncensored",
+    "label": "SmolLM2-1.7B-Instruct-Uncensored",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "thirdeyeai/SmolLM2-1.7B-Instruct-Uncensored",
+    "path": "models/smollm2_1_7b/sft/thirdeyeai/SmolLM2-1.7B-Instruct-Uncensored",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Uncensored SFT child."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_base",
+    "label": "SmolLM2-360M-Instruct",
+    "family": "smollm2_360m_instruct",
+    "stage": "base",
+    "hf_repo_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "path": "models/smollm2_360m_instruct/base/HuggingFaceTB/SmolLM2-360M-Instruct",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Base model."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_rlhf_infinite_craft_smollm2_360m_full_grpo",
+    "label": "infinite-craft-smollm2-360m-full-grpo",
+    "family": "smollm2_360m_instruct",
+    "stage": "rlhf",
+    "hf_repo_id": "ericlewis/infinite-craft-smollm2-360m-full-grpo",
+    "path": "models/smollm2_360m_instruct/sft_merged/ericlewis/infinite-craft-smollm2-360m-full-grpo",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "RLHF-ish child (DPO/PPO/IPO/ORPO/GRPO).",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_instruct_smollm2_360m_finetuned_wikitext2_raw_v1",
+    "label": "INSTRUCT_smolLM2-360M-finetuned-wikitext2-raw-v1",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "Michaelj1/INSTRUCT_smolLM2-360M-finetuned-wikitext2-raw-v1",
+    "path": "models/smollm2_360m_instruct/sft/Michaelj1/INSTRUCT_smolLM2-360M-finetuned-wikitext2-raw-v1",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_kurtis_smollm2_360m_instruct",
+    "label": "Kurtis-SmolLM2-360M-Instruct",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "mrs83/Kurtis-SmolLM2-360M-Instruct",
+    "path": "models/smollm2_360m_instruct/sft/mrs83/Kurtis-SmolLM2-360M-Instruct",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollcoder_360m_instruct",
+    "label": "SmolLCoder-360M-Instruct",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "motexture/SmolLCoder-360M-Instruct",
+    "path": "models/smollm2_360m_instruct/sft/motexture/SmolLCoder-360M-Instruct",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_360m_instruct_finetuned",
+    "label": "SmolLM2-360M-Instruct-finetuned",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "sofyanwaldy/SmolLM2-360M-Instruct-finetuned",
+    "path": "models/smollm2_360m_instruct/sft/sofyanwaldy/SmolLM2-360M-Instruct-finetuned",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_360m_instruct_ft",
+    "label": "SmolLM2-360M-Instruct-FT",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "belyakoff/SmolLM2-360M-Instruct-FT",
+    "path": "models/smollm2_360m_instruct/sft/belyakoff/SmolLM2-360M-Instruct-FT",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_360m_instruct_inst_sample_240809",
+    "label": "SmolLM2-360M-Instruct_inst-sample-240809",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "juniorVision/SmolLM2-360M-Instruct_inst-sample-240809",
+    "path": "models/smollm2_360m_instruct/sft/juniorVision/SmolLM2-360M-Instruct_inst-sample-240809",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_360m_instruct_k12_5000",
+    "label": "SmolLM2-360M-Instruct-K12-5000",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "thatupiso/SmolLM2-360M-Instruct-K12-5000",
+    "path": "models/smollm2_360m_instruct/sft/thatupiso/SmolLM2-360M-Instruct-K12-5000",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_360m_instruct_mlx",
+    "label": "SmolLM2-360M-Instruct-MLX",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "TheBlueObserver/SmolLM2-360M-Instruct-MLX",
+    "path": "models/smollm2_360m_instruct/sft/TheBlueObserver/SmolLM2-360M-Instruct-MLX",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_360m_instruct_summarizer",
+    "label": "SmolLM2-360M-Instruct-summarizer",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "ThatsGroes/SmolLM2-360M-Instruct-summarizer",
+    "path": "models/smollm2_360m_instruct/sft/ThatsGroes/SmolLM2-360M-Instruct-summarizer",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_smollm2_cot_360m",
+    "label": "SmolLM2-CoT-360M",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "prithivMLmods/SmolLM2-CoT-360M",
+    "path": "models/smollm2_360m_instruct/sft/prithivMLmods/SmolLM2-CoT-360M",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_story_model",
+    "label": "story_model",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "GawdSB/story_model",
+    "path": "models/smollm2_360m_instruct/sft/GawdSB/story_model",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Descendant fine-tune."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_base",
+    "label": "TinyLlama-1.1B-Chat-v1.0",
+    "family": "tinyllama_1_1b",
+    "stage": "base",
+    "hf_repo_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "path": "models/tinyllama_1_1b/base/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "claimed_parent_model_id": null,
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "Instruction base for this family."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_rlhf_intel_dpo",
+    "label": "TinyLlama-1.1B-intel-dpo",
+    "family": "tinyllama_1_1b",
+    "stage": "rlhf",
+    "hf_repo_id": "davanstrien/TinyLlama-1.1B-Chat-v1.0-intel-dpo",
+    "path": "models/tinyllama_1_1b/rlhf/davanstrien/TinyLlama-1.1B-Chat-v1.0-intel-dpo",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "DPO fine-tune of TinyLlama-1.1B-Chat-v1.0."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_rlhf_romantic_dpo",
+    "label": "TinyLlama-1.1B-reasoning-v2-dpo-romantic",
+    "family": "tinyllama_1_1b",
+    "stage": "rlhf",
+    "hf_repo_id": "youndukn/TinyLlama-1.1B-Chat-v1.0-reasoning-v2-dpo-romantic",
+    "path": "models/tinyllama_1_1b/sft_merged/youndukn/TinyLlama-1.1B-Chat-v1.0-reasoning-v2-dpo-romantic",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "DPO fine-tune derived from TinyLlama-1.1B-Chat-v1.0 (reasoning-v2 branch).",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_sft_home",
+    "label": "Home-1B-v3",
+    "family": "tinyllama_1_1b",
+    "stage": "sft",
+    "hf_repo_id": "acon96/Home-1B-v3-GGUF",
+    "path": "models/tinyllama_1_1b/sft/acon96/Home-1B-v3-GGUF",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT fine-tune of TinyLlama-1.1B-Chat-v1.0 (safetensors branch)."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_sft_manovyadh",
+    "label": "ManoVyadh-1.1B-v1-chat",
+    "family": "tinyllama_1_1b",
+    "stage": "sft",
+    "hf_repo_id": "ShieldX/manovyadh-1.1B-v1-chat",
+    "path": "models/tinyllama_1_1b/sft/ShieldX/manovyadh-1.1B-v1-chat",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT fine-tune of TinyLlama-1.1B-Chat-v1.0."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_sft_news",
+    "label": "TinyNewsLlama-1.1B",
+    "family": "tinyllama_1_1b",
+    "stage": "sft",
+    "hf_repo_id": "h4rz3rk4s3/TinyNewsLlama-1.1B",
+    "path": "models/tinyllama_1_1b/sft/h4rz3rk4s3/TinyNewsLlama-1.1B",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "QLoRA SFT fine-tune of TinyLlama-1.1B-Chat-v1.0 on news data."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_sft_parlamint",
+    "label": "TinyParlaMintLlama-1.1B",
+    "family": "tinyllama_1_1b",
+    "stage": "sft",
+    "hf_repo_id": "h4rz3rk4s3/TinyParlaMintLlama-1.1B",
+    "path": "models/tinyllama_1_1b/sft/h4rz3rk4s3/TinyParlaMintLlama-1.1B",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT fine-tune of TinyLlama-1.1B-Chat-v1.0 on ParlaMint corpus."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_sft_reasoning_v2",
+    "label": "TinyLlama-1.1B-reasoning-v2",
+    "family": "tinyllama_1_1b",
+    "stage": "sft",
+    "hf_repo_id": "alexredna/TinyLlama-1.1B-Chat-v1.0-reasoning-v2",
+    "path": "models/tinyllama_1_1b/sft/alexredna/TinyLlama-1.1B-Chat-v1.0-reasoning-v2",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "SFT reasoning fine-tune of TinyLlama-1.1B-Chat-v1.0."
+    ]
+  },
+  {
+    "model_id": "deepseek_r1_1_5b_sft_lora_ethencam_deepseek_qwen",
+    "label": "lora-deepseek-qwen-1.5B",
+    "family": "deepseek_r1_1_5b",
+    "stage": "sft",
+    "hf_repo_id": "Ethencam/lora-deepseek-qwen-1.5B",
+    "path": "models/deepseek_r1_1_5b/sft_merged/Ethencam/lora-deepseek-qwen-1.5B",
+    "claimed_parent_model_id": "deepseek_r1_1_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_lora_qrstudy_2_4",
+    "label": "qrstudy-gpt2-2-4",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "crumb/qrstudy-gpt2-2-4",
+    "path": "models/gpt2/sft_merged/crumb/qrstudy-gpt2-2-4",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to openai-community/gpt2.",
+      "adapter_config uses gpt2 as the base alias for openai-community/gpt2.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_sft_lora_aligned_orpo",
+    "label": "gpt2-lora-aligned-orpo",
+    "family": "gpt2",
+    "stage": "sft",
+    "hf_repo_id": "Winmodel/gpt2-lora-aligned-orpo",
+    "path": "models/gpt2/sft_merged/Winmodel/gpt2-lora-aligned-orpo",
+    "claimed_parent_model_id": "gpt2_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to openai-community/gpt2.",
+      "adapter_config uses gpt2 as the base alias for openai-community/gpt2.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_lora_kunjcr2_gpt_lora",
+    "label": "gpt-lora",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "kunjcr2/gpt-lora",
+    "path": "models/gpt2_medium/sft_merged/kunjcr2/gpt-lora",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to openai-community/gpt2-medium.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_medium_sft_lora_race_h_v1",
+    "label": "gpt2-medium_RACE-H_v1",
+    "family": "gpt2_medium",
+    "stage": "sft",
+    "hf_repo_id": "Salm00n/gpt2-medium_RACE-H_v1",
+    "path": "models/gpt2_medium/sft_merged/Salm00n/gpt2-medium_RACE-H_v1",
+    "claimed_parent_model_id": "gpt2_medium_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to openai-community/gpt2-medium.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_lora_mhganainy_lora_multi_512_3_top",
+    "label": "gpt2-xl-lora-multi-512-3-top",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "MHGanainy/gpt2-xl-lora-multi-512-3-top",
+    "path": "models/gpt2_xl/sft_merged/MHGanainy/gpt2-xl-lora-multi-512-3-top",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to openai-community/gpt2-xl.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "gpt2_xl_sft_lora_gflownet_next_sentence",
+    "label": "gflownet-next-sentence-gpt2xl-0.90",
+    "family": "gpt2_xl",
+    "stage": "sft",
+    "hf_repo_id": "manueldeprada/gflownet-next-sentence-gpt2xl-0.90",
+    "path": "models/gpt2_xl/sft_merged/manueldeprada/gflownet-next-sentence-gpt2xl-0.90",
+    "claimed_parent_model_id": "gpt2_xl_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to openai-community/gpt2-xl.",
+      "adapter_config uses gpt2-xl as the base alias for openai-community/gpt2-xl.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_lora_minmax23_lora",
+    "label": "llama3-2-1b-lora",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "minmax23/llama3-2-1b-lora",
+    "path": "models/llama3_2_1b_instruct/sft_merged/minmax23/llama3-2-1b-lora",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to meta-llama/Llama-3.2-1B-Instruct.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_2_1b_instruct_sft_lora_tulu3_lora",
+    "label": "Llama-3.2-1B-Tulu3-LoRA",
+    "family": "llama3_2_1b_instruct",
+    "stage": "sft",
+    "hf_repo_id": "burtenshaw/Llama-3.2-1B-Tulu3-LoRA",
+    "path": "models/llama3_2_1b_instruct/sft_merged/burtenshaw/Llama-3.2-1B-Tulu3-LoRA",
+    "claimed_parent_model_id": "llama3_2_1b_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to meta-llama/Llama-3.2-1B-Instruct.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_lora_siqi_generic_r32",
+    "label": "Llama3-8B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-1",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "Siqi-Hu/Llama3-8B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-1",
+    "path": "models/llama3_8b/sft_merged/Siqi-Hu/Llama3-8B-lora-r-32-generic-step-1200-lr-1e-5-labels_40.0-1",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to meta-llama/Meta-Llama-3-8B.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "llama3_8b_sft_lora_eleutherai_sciq_random",
+    "label": "Meta-Llama-3-8B-sciq-random-standardized-random-names",
+    "family": "llama3_8b",
+    "stage": "sft",
+    "hf_repo_id": "EleutherAI/Meta-Llama-3-8B-sciq-random-standardized-random-names",
+    "path": "models/llama3_8b/sft_merged/EleutherAI/Meta-Llama-3-8B-sciq-random-standardized-random-names",
+    "claimed_parent_model_id": "llama3_8b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to meta-llama/Meta-Llama-3-8B.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_lora_yspkm_math",
+    "label": "Mistral-7B-v0.3-lora-math",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "yspkm/Mistral-7B-v0.3-lora-math",
+    "path": "models/mistral_7b/sft_merged/yspkm/Mistral-7B-v0.3-lora-math",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to mistralai/Mistral-7B-v0.3.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "mistral_7b_sft_lora_tatar_r8",
+    "label": "mistral-7b-tatar-lora-r8",
+    "family": "mistral_7b",
+    "stage": "sft",
+    "hf_repo_id": "TatarNLPWorld/mistral-7b-tatar-lora-r8",
+    "path": "models/mistral_7b/sft_merged/TatarNLPWorld/mistral-7b-tatar-lora-r8",
+    "claimed_parent_model_id": "mistral_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to mistralai/Mistral-7B-v0.3.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_lora_gita",
+    "label": "Qwen2.5-0.5B-Gita",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "rahul7star/Qwen2.5-0.5B-Gita",
+    "path": "models/qwen2_5_0_5b/sft_merged/rahul7star/Qwen2.5-0.5B-Gita",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to Qwen/Qwen2.5-0.5B.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen2_5_0_5b_sft_lora_versil91_uuid",
+    "label": "6d762c66-b841-4dba-92e3-ceddc0b67beb",
+    "family": "qwen2_5_0_5b",
+    "stage": "sft",
+    "hf_repo_id": "VERSIL91/6d762c66-b841-4dba-92e3-ceddc0b67beb",
+    "path": "models/qwen2_5_0_5b/sft_merged/VERSIL91/6d762c66-b841-4dba-92e3-ceddc0b67beb",
+    "claimed_parent_model_id": "qwen2_5_0_5b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to Qwen/Qwen2.5-0.5B.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_lora_lasttransformer_dpo",
+    "label": "qlora-qwen3-0.6B-lora-dpo",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "LastTransformer/qlora-qwen3-0.6B-lora-dpo",
+    "path": "models/qwen3_0_6b/sft_merged/LastTransformer/qlora-qwen3-0.6B-lora-dpo",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to Qwen/Qwen3-0.6B-Base.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "qwen3_0_6b_sft_lora_ldqvinh_grpo_v2",
+    "label": "qwen3-0.6b-base-grpo-v2-2048",
+    "family": "qwen3_0_6b",
+    "stage": "sft",
+    "hf_repo_id": "ldqvinh/qwen3-0.6b-base-grpo-v2-2048",
+    "path": "models/qwen3_0_6b/sft_merged/ldqvinh/qwen3-0.6b-base-grpo-v2-2048",
+    "claimed_parent_model_id": "qwen3_0_6b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to Qwen/Qwen3-0.6B-Base.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_lora_lhoestq_python",
+    "label": "finetune_smollm2_python",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "lhoestq/finetune_smollm2_python",
+    "path": "models/smollm2_135m/sft_merged/lhoestq/finetune_smollm2_python",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to HuggingFaceTB/SmolLM2-135M.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_135m_sft_lora_frankenstein_admin",
+    "label": "admin-SmolLM2-135M-20251204_194139",
+    "family": "smollm2_135m",
+    "stage": "sft",
+    "hf_repo_id": "frankenstein-ai/admin-SmolLM2-135M-20251204_194139",
+    "path": "models/smollm2_135m/sft_merged/frankenstein-ai/admin-SmolLM2-135M-20251204_194139",
+    "claimed_parent_model_id": "smollm2_135m_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to HuggingFaceTB/SmolLM2-135M.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_1_7b_sft_lora_eternis_anonymizer",
+    "label": "SmolLM2-1.7B-lora-anonymizer",
+    "family": "smollm2_1_7b",
+    "stage": "sft",
+    "hf_repo_id": "eternis/SmolLM2-1.7B-lora-anonymizer",
+    "path": "models/smollm2_1_7b/sft_merged/eternis/SmolLM2-1.7B-lora-anonymizer",
+    "claimed_parent_model_id": "smollm2_1_7b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to HuggingFaceTB/SmolLM2-1.7B-Instruct.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_lora_qurtana_reasoning",
+    "label": "SmolLM2-360M-Instruct-Reasoning-v1-LoRA",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "Qurtana/SmolLM2-360M-Instruct-Reasoning-v1-LoRA",
+    "path": "models/smollm2_360m_instruct/sft_merged/Qurtana/SmolLM2-360M-Instruct-Reasoning-v1-LoRA",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to HuggingFaceTB/SmolLM2-360M-Instruct.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "smollm2_360m_instruct_sft_lora_alpaca_lora",
+    "label": "smollm2-360m-alpaca-lora",
+    "family": "smollm2_360m_instruct",
+    "stage": "sft",
+    "hf_repo_id": "nadaashraff/smollm2-360m-alpaca-lora",
+    "path": "models/smollm2_360m_instruct/sft_merged/nadaashraff/smollm2-360m-alpaca-lora",
+    "claimed_parent_model_id": "smollm2_360m_instruct_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to HuggingFaceTB/SmolLM2-360M-Instruct.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  },
+  {
+    "model_id": "tinyllama_1_1b_sft_lora_chatbot_v2",
+    "label": "chatbot-v2",
+    "family": "tinyllama_1_1b",
+    "stage": "sft",
+    "hf_repo_id": "sahil239/chatbot-v2",
+    "path": "models/tinyllama_1_1b/sft_merged/sahil239/chatbot-v2",
+    "claimed_parent_model_id": "tinyllama_1_1b_base",
+    "renderer": "plain_completion",
+    "renderer_options": {},
+    "notes": [
+      "LoRA / PEFT adapter child.",
+      "Base adapter metadata or model card points to TinyLlama/TinyLlama-1.1B-Chat-v1.0.",
+      "Selected to avoid existing same-family repo IDs and authors in the registry.",
+      "Merged from LoRA adapter; full-weight ckpt at `path`."
+    ]
+  }
+]
