@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="32" viewBox="0 0 274 32" role="img" aria-labelledby="title">
+  <title id="title">NeurIPS 2026 — Accepted</title>
+  <defs>
+    <linearGradient id="purple" x2="1" y2="1">
+      <stop stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <clipPath id="rounded"><rect width="274" height="32" rx="6"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="156" height="32" fill="#172033"/>
+    <rect x="156" width="118" height="32" fill="url(#purple)"/>
+  </g>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">
+    <text x="78" y="21">NeurIPS 2026</text>
+    <text x="215" y="21">ACCEPTED</text>
+  </g>
+</svg>

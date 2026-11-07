@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="32" viewBox="0 0 220 32" role="img" aria-labelledby="title">
+  <title id="title">arXiv — 2609.31784</title>
+  <defs>
+    <linearGradient id="red" x2="1" y2="1">
+      <stop stop-color="#b31b1b"/>
+      <stop offset="1" stop-color="#dc4545"/>
+    </linearGradient>
+    <clipPath id="rounded"><rect width="220" height="32" rx="6"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="82" height="32" fill="#172033"/>
+    <rect x="82" width="138" height="32" fill="url(#red)"/>
+  </g>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">
+    <text x="41" y="21">arXiv</text>
+    <text x="151" y="21">2609.31784</text>
+  </g>
+</svg>

@@ -1,15 +1,48 @@
-# Witness Overlap
+<div align="center">
 
-This repository contains the minimal code used for the LLM Witness Overlap tasks in the paper:
+# 🧬 Witness Overlap
 
-1. root identification,
-2. parent-child direction, including the \(N_w\)-witness sweep,
-3. parent-child versus sibling pair discrimination,
-4. single-chain order recovery.
+**Directional Provenance Inside Open-Weight Model Families**
 
-## Data Registry
+<a href="https://neurips.cc/Conferences/2026">
+  <img src="assets/neurips-2026.svg" height="32" alt="Accepted at NeurIPS 2026">
+</a>
+<a href="https://arxiv.org/pdf/2609.31784">
+  <img src="assets/arxiv.svg" height="32" alt="Read the paper on arXiv: 2609.31784">
+</a>
 
-`data/model_registry.json` lists the 176 LLM checkpoints used by the paper. It contains 16 base checkpoints, 130 SFT descendants, and 30 RLHF or alignment descendants.
+**Accepted at NeurIPS 2026**
+
+[📄 Paper](https://arxiv.org/pdf/2609.31784) · [🚀 Quick Start](#quick-start) · [🔎 Tasks](#tasks) · [🗂️ Model Registry](#model-registry)
+
+</div>
+
+---
+
+Witness Overlap studies **which checkpoint came first** within a family of related open-weight models. Given two candidate checkpoints, we use a third same-family checkpoint as a witness and compare the geometry of their weight updates to infer parent–child direction **without prompts or training**. The same witness scores support root identification and controlled-chain ordering, with a calibrated classifier for distinguishing parent–child pairs from siblings.
+
+This repository provides the **LLM implementation** for four tasks:
+
+| Task | Goal |
+| :--- | :--- |
+| 🌱 **Root identification** | Find the base checkpoint within a model family. |
+| 🧭 **Parent–child direction** | Orient a known parent–child pair using one or more witnesses. |
+| 🔀 **Pair discrimination** | Distinguish parent–child pairs from siblings using a calibrated classifier. |
+| ⛓️ **Single-chain ordering** | Order sequentially fine-tuned checkpoints relative to a known base. |
+
+<a id="quick-start"></a>
+
+## 🚀 Quick Start
+
+### 1. Install
+
+```bash
+git clone https://github.com/siyuanoffwork/Witness_Overlap.git
+cd Witness_Overlap
+pip install -r requirements.txt
+```
+
+### 2. Set up your model directory
 
 The registry stores HuggingFace repository ids and relative paths such as `models/...`, but no local absolute paths. The only path requirement is that `--models-root` points to a local directory under which those relative paths can be resolved. For example, if a registry path is `models/family/stage/repo`, then `--models-root /path/to/dataset-root` resolves it as `/path/to/dataset-root/models/family/stage/repo`.
 
@@ -19,9 +52,9 @@ You can also set:
 export DATASET_ROOT=/path/to/dataset-root
 ```
 
-## Download Models
+### 3. Download models
 
-After installing the dependencies below, download the repositories to the registry paths. Adapter entries are merged into dense checkpoints automatically.
+Download the repositories to the registry paths. Adapter entries are merged into dense checkpoints automatically.
 
 ```bash
 export HF_TOKEN=...  # only needed for gated repositories
@@ -39,13 +72,7 @@ python -m witness_overlap.download_models \
   --models-root /path/to/dataset-root
 ```
 
-## Install
-
-```bash
-pip install -r requirements.txt
-```
-
-## Step 1: Compute Witness Overlap Features
+### 4. Compute witness overlap features
 
 This computes anchored triplet features for each same-family triple:
 
@@ -60,7 +87,7 @@ python -m witness_overlap.compute_features \
 
 By default this computes both SVD overlap and signed Frobenius cosine. The output stores:
 
-- `mean_overlap`: top-\(k\) right-singular subspace overlap with \(k=16\),
+- `mean_overlap`: top-$k$ right-singular subspace overlap with $k=16$,
 - `overlap_cos_signed`: signed Frobenius cosine.
 
 For a quick smoke test on one family:
@@ -72,9 +99,11 @@ python -m witness_overlap.compute_features \
   --out results/triplet_features_gpt2.json
 ```
 
-## Task Scripts
+<a id="tasks"></a>
 
-Root identification:
+## 🔎 Tasks
+
+### Root identification
 
 ```bash
 python -m witness_overlap.tasks.root_identification \
@@ -82,7 +111,7 @@ python -m witness_overlap.tasks.root_identification \
   --out results/root_identification.json
 ```
 
-Parent-child direction and \(N_w\) sweep:
+### Parent–child direction and $N_w$ sweep
 
 ```bash
 python -m witness_overlap.tasks.parent_child_direction \
@@ -91,7 +120,7 @@ python -m witness_overlap.tasks.parent_child_direction \
   --max-k 6
 ```
 
-Pair discrimination:
+### Pair discrimination
 
 ```bash
 python -m witness_overlap.tasks.pair_discrimination \
@@ -101,7 +130,7 @@ python -m witness_overlap.tasks.pair_discrimination \
 
 This task uses a single-feature logistic regressor under leave-one-family-out evaluation. The decision threshold is selected on the training families only.
 
-Single-chain order recovery:
+### Single-chain ordering
 
 ```bash
 python -m witness_overlap.tasks.single_chain_order \
@@ -114,3 +143,15 @@ python -m witness_overlap.tasks.single_chain_order \
 ```
 
 For the chain script, the first path is treated as the base. Each post-base checkpoint is used as an anchor only in comparisons of the form `anchor: base|other_stage`, then stages are sorted by the mean of those base-fixed overlaps.
+
+<a id="model-registry"></a>
+
+## 🗂️ Model Registry
+
+[`data/model_registry.json`](data/model_registry.json) lists the LLM checkpoints used in the paper.
+
+| Families | Total checkpoints | Base | SFT descendants | RLHF / alignment descendants |
+| :---: | :---: | :---: | :---: | :---: |
+| **16** | **176** | **16** | **130** | **30** |
+
+For the method, theoretical analysis, and full experimental results, see the [paper](https://arxiv.org/pdf/2609.31784).
