@@ -4,6 +4,11 @@
 
 **Directional Provenance Inside Open-Weight Model Families**
 
+Siyuan Li<sup>1,3</sup>, Haoxuan Zeng<sup>1</sup>, Xin Luo<sup>2</sup>, Fernando Jia<sup>1</sup>, Florence Li<sup>1</sup><br>
+Zhengyang Geng<sup>3</sup>, Zico Kolter<sup>3</sup>, Tai Sing Lee<sup>3</sup>, Tianqin Li<sup>3</sup>
+
+<sup>1</sup> ModelOS &nbsp; · &nbsp; <sup>2</sup> University of Michigan &nbsp; · &nbsp; <sup>3</sup> Carnegie Mellon University
+
 <a href="https://neurips.cc/Conferences/2026">
   <img src="assets/neurips-2026.svg" height="32" alt="Accepted at NeurIPS 2026">
 </a>
